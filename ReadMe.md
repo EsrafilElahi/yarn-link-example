@@ -1,6 +1,9 @@
 # Yarn Link Example
 How to overwrite a remote package with a local development package with yarn link
 
+yarn config list : yarn config list
+set registery : yarn config set registry https://registry.npmjs.org
+
 ### Requirement/setup:
 1. Pull this repo.
 2. In the demo-app, `yarn install`. Now you will have `hello-world-app` package pulled from npm, in the node_modules.
